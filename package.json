@@ -2,7 +2,7 @@
   "name": "fcc-cm",
   "version": "1.0.0",
   "author": "Ilya Zelenko",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "nodemon --watch api --exec \"nuxt dev\"",
     "build": "nuxt build",
@@ -11,7 +11,10 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
     "@nuxtjs/axios": "^5.3.6",
+    "js-yaml": "^3.12.2",
+    "marked": "^0.6.1",
     "monaco-editor": "^0.16.0",
     "nuxt": "^2.4.3",
     "vuetify": "^1.5.6"

@@ -280,6 +280,14 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-optional-catch-binding" "^7.2.0"
 
+"@babel/plugin-proposal-optional-chaining@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.2.0.tgz#ae454f4c21c6c2ce8cb2397dc332ae8b420c5441"
+  integrity sha512-ea3Q6edZC/55wEBVZAEz42v528VulyO0eir+7uky/sT4XRcdkWJcFi1aPtitTlwUzGnECWJNExWww1SStt+yWw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-optional-chaining" "^7.2.0"
+
 "@babel/plugin-proposal-unicode-property-regex@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.2.0.tgz#abe7281fe46c95ddc143a65e5358647792039520"
@@ -335,6 +343,13 @@
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.2.0.tgz#a94013d6eda8908dfe6a477e7f9eda85656ecf5c"
   integrity sha512-bDe4xKNhb0LI7IvZHiA13kff0KEfaGX/Hv4lMA9+7TEc63hMNvfKo6ZFpXhKuEp+II/q35Gc4NoMeDZyaUbj9w==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+
+"@babel/plugin-syntax-optional-chaining@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.2.0.tgz#a59d6ae8c167e7608eaa443fda9fa8fa6bf21dff"
+  integrity sha512-HtGCtvp5Uq/jH/WNUPkK6b7rufnCPLLlDAFN7cmACoIjaOOiXxUt3SswU5loHqrhtqTsa/WoLQ1OQ1AGuZqaWA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
@@ -4010,7 +4025,7 @@ js-levenshtein@^1.1.3:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^3.12.0, js-yaml@^3.9.0:
+js-yaml@^3.12.0, js-yaml@^3.12.2, js-yaml@^3.9.0:
   version "3.12.2"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.2.tgz#ef1d067c5a9d9cb65bd72f285b5d8105c77f14fc"
   integrity sha512-QHn/Lh/7HhZ/Twc7vJYQTkjuCa0kaCcDcjK5Zlk2rvnUpy7DxMJ23+Jc2dcyvltwQVg1nygAVlB2oRDFHoRS5Q==
@@ -4292,6 +4307,11 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+marked@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.6.1.tgz#a63addde477bca9613028de4b2bc3629e53a0562"
+  integrity sha512-+H0L3ibcWhAZE02SKMqmvYsErLo4EAVJxu5h3bHBBDvvjeWXtl92rGUSBYHL2++5Y+RSNgl8dYOAXcYe7lp1fA==
 
 md5.js@^1.3.4:
   version "1.3.5"
